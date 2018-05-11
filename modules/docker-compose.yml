@@ -1,0 +1,15 @@
+version: '2'
+services:
+
+  kafka:
+    container_name: local.kafka
+    image: spotify/kafka
+    restart: always
+    ports:
+      - "2181:2181"
+      - "9092:9092"
+    environment:
+      - ADVERTISED_HOST=localhost
+      - ADVERTISED_PORT=9092
+      - KAFKA_VERSION=0.10.2.1
+      - SCALA_VERSION=2.12

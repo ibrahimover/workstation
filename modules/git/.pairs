@@ -1,0 +1,8 @@
+pairs:
+
+email:
+  prefix: pair
+  domain: BLAH
+  no_solo_prefix: true
+
+global: true

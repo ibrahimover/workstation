@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+
+# npm
+npm-debug.log
+
+# Browserify
+bundle.js
+.bundle.js
+
+# Vim
+*.swo
+*.swp
+*.vi
+
+# Operating System
+.DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+gradle/
+out/
+build/
+
+# Sbt
+target

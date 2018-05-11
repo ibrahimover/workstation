@@ -1,0 +1,27 @@
+[alias]
+
+  aa = add --all
+  b = branch
+  br = branch
+  co = checkout
+  logp = log --pretty=oneline --abbrev-commit --graph --decorate --all -10
+  ri = rebase --interactive
+  st = status
+
+[branch]
+
+  # Set up `git pull` to rebase instead of merge
+  autosetuprebase = always
+
+[core]
+
+  # Use Vim as the text editor
+  editor = vim
+
+  # Source the global .gitignore
+  excludesfile = ~/.gitignore-global
+
+[push]
+
+  # Push the current branch to the upstream branch
+  default = upstream
