@@ -1,6 +1,7 @@
 # Workstation setup
 
-Execute `./provision.sh` to install packages
+* Install Xcode command line tools first time `xcode-select --install`
+* Execute `./provision.sh` to install packages
 
 Excluded:
 * Git pair file

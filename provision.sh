@@ -25,8 +25,8 @@ fi
 echo "Brew updating"
 brew update
 brew bundle --file=modules/Brewfile
+brew doctor
 echo "Brew update completed"
-
 
 #
 # Create symbolic links to Git config files
